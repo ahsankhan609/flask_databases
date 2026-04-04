@@ -21,3 +21,4 @@ flask db migrate
 ```bash
 flask db upgrade
 ```
+2.13.24
