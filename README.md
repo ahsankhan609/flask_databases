@@ -12,11 +12,11 @@ So, when we create a class in `models.py` we will import it into the app file, a
 
 we can create tables in the db and connect them with our app or we can create it in out `models.py` file.
 
-### only do onces first time before running server
+### only do onces, first time before running server
 ```bash
 flask db init
 ```
-### and when we add any model, change db or do any change
+### Run both commands everytime -  add any model class - add any field - change db - do any type of change
 ```bash
 flask db migrate
 ```

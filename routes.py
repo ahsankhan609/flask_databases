@@ -8,6 +8,7 @@ def register_routes(app, db) -> None:
     @app.route('/')
     def index() -> str:
         people = Person.query.all()
+        # return str(people)
         return render_template('index.html', people=people)
 
     @app.route('/add', methods=['POST'])
